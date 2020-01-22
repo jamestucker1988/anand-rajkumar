@@ -1,0 +1,64 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+
+</script>
+<head>
+  <title>
+     title
+  </title>
+  <meta charset="utf-8">
+  <link href="./survey-form/surveyform.css" rel="stylesheet"
+  type="text/css" >
+</head>
+<body>
+  <h1 id="title"> Details of volunteers taking part in census</h1>
+  <p id="description">This is a survey form for volunteers in population census.
+  </p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name:
+      <input type="text" id="name" placeholder="write your name" required>
+    </label>
+   <div> <label id="email-label" for="email">Email:
+     <input type="email" id="email" required placeholder="abc@domainame.com">
+   </label></div>
+ <div> <label id="number-label" for="number">Telephone
+<input type="number" id="number" min=10 max=100000  required
+placeholder="telephone-number"></label></div>
+<label>Age:
+  <input type="radio" name="age" value="a">18-30
+
+      <input type="radio" name="age" value="b">31-45
+
+  <input type="radio" name="age" value="c">46-60</label>
+    <div>
+    <label for="dropdown">select which is suitable from menu
+      <select type="dropdown" id="dropdown">
+      <option disabled selected value>select your education level</option>
+        <option value="elementary">class 1 to 5</option>
+        <option value="higher-secondary">class 6 to 8</option>
+        <option value="secondary">class 9 to 10</option>
+        <option value="intermediate">class 11-12</option>
+        <option value="graduation">graduation</option>
+        <option value="post-graduation">post-graduation</option>
+      </select>
+        <div>Recheck and tick corresponding
+          <label for="check">
+            <ol>
+              <li><input type="checkbox" id="check" value="name">name</li>
+              <li><input type="checkbox" id="check" value="email">email</li>
+              <li><input type="checkbox" id="check" value="telephone">telephone
+              </li>
+              <li><input type="checkbox" id="check" value="age">age</li>
+              <li><input type="checkbox" id="check" value="education">education
+              </li>
+            </ol>
+          </label>
+          <label for="comment">Any other information that you want to share
+
+            <textarea> </textarea>
+
+
+          </label>
+          <div>
+            <label for="submission">
+              <input type="submit" for="submission" id="submit"></label>
+
