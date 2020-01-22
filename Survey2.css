@@ -1,0 +1,19 @@
+body {
+    color: #000fff;
+    background-color: #fffff0;
+    line-height: 50px;
+    border-color: #ff0000;
+    border-width: 5px;
+    border-style: solid;
+  }
+  
+  #t {
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-bottom: -50px;
+    
+  }
+  
+  
